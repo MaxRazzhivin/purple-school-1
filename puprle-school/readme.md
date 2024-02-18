@@ -1,1 +1,2 @@
-Первый файл для purple school# purple-school-1
+Первый файл для purple school
+Вторая строка тестовая
