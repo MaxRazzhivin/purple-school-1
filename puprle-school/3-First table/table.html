@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица доходов и расходов</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <table border="2px solid black">
@@ -69,8 +70,10 @@
 
 <hr>
 
-<form action="/test">
+<section class="form">
+    
     <h1>Свяжитесь со мной</h1>
+<form action="/test" class="form-test">
     <div>
     <label for="email">E-mail*</label>
     <input type="email" name="email" id="email" placeholder="123@gmail.com" required`>
@@ -80,7 +83,7 @@
     <input type="email" name="telegram" id="telegram" placeholder="123@gmail.com">
     </div>
     <div>
-    <select>
+    <select class="options">
         <option selected>Приобретение курсов</option>
     </select>
     </div>
@@ -90,5 +93,6 @@
     <div><button>Отправить</button></div>
 
 </form>
+</section>
 </body>
 </html>

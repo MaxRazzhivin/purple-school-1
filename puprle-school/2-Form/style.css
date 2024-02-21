@@ -1,0 +1,36 @@
+h1 {
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 49.03px;
+}
+
+
+body {
+    width: 582px;
+    height: 573px;
+}
+
+th {
+    color: rgba(51, 51, 51, 1);
+    width: 394px;
+    height: 44px;
+    text-align: left;
+}
+
+/* tr {
+    width: 394px;
+    height: 44px;;
+} */
+
+input {
+    background-color: rgba(245, 245, 245, 1);
+    font-style: italic;
+}
+
+
+button {
+    background-color: rgba(8, 159, 224, 1);
+    width: 394px;
+    height: 44px;
+    color: rgba(255, 255, 255, 1);
+}
