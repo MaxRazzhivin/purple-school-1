@@ -1,0 +1,22 @@
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 56px;
+    color: rgba(5, 0, 56, 1);
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text {
+    color: rgba(5, 0, 56, 1);
+}
+
+.p-section-text {
+    color:rgba(5, 0, 56, 0.6)
+}
