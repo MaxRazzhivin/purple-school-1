@@ -10,21 +10,29 @@ body {
     height: 573px;
 }
 
+table {
+    width: 394px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 th {
     color: rgba(51, 51, 51, 1);
-    width: 394px;
-    height: 44px;
     text-align: left;
 }
 
-/* tr {
-    width: 394px;
-    height: 44px;;
-} */
+th > input {
+    width: 100%;
+}
+
+td > input {
+    width: 100%;
+}
 
 input {
     background-color: rgba(245, 245, 245, 1);
     font-style: italic;
+    padding: 0;
 }
 
 
