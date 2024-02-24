@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(55, 65, 81, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 1440px;
+    height: 1516px;
+}
+
+form > input {
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+header a, ul {
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 1);
+    list-style: none;
+}
+
+.avatar {
+    margin: 30px 586px 0 640px;
+}
+
+.img-container {
+    margin: 28px 272px 0;
+}
+
+article {
+    width: 708px;
+    height: auto;
+    margin: 69px auto 103px;
+}
+
+footer {
+    width: 226px;
+    height: auto;
+    margin: 0 auto 77px;
+}
+
