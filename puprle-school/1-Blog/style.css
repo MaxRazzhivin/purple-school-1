@@ -3,10 +3,13 @@ body {
     color: rgba(255, 255, 255, 1);
     width: 1440px;
     height: 1516px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
 }
 
 form > input {
     background-color: rgba(31, 41, 55, 0.6);
+    font-size: 16px;
 }
 
 header a, ul {
@@ -30,9 +33,47 @@ article {
     margin: 69px auto 103px;
 }
 
+
 footer {
-    width: 226px;
-    height: auto;
-    margin: 0 auto 77px;
+    text-align: center;
+    }
+
+main > p, main > h1 {
+    text-align: center;
 }
 
+a span {
+font-size: 18px;
+line-height: 21px;
+}
+
+nav a {
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+main > p {
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.text-1 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text-2 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer > p {
+    font-size: 16px;
+    line-height: 28px;
+}
