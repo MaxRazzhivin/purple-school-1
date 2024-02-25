@@ -41,3 +41,11 @@ header ul {
     line-height: 20px;
     color: rgba(5, 0, 56, 1);
 }
+
+.section-list {
+    list-style: none;
+}
+
+.section-list li::before {
+    content: url(check.svg)
+}
