@@ -1,21 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgba(55, 65, 81, 1);
     color: rgba(255, 255, 255, 1);
-    width: 1440px;
-    height: 1516px;
+    max-width: 1440px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
+    margin: 0 auto;
 }
+
+header {
+    margin-bottom: 69px;
+}
+
+
 
 form > input {
     background-color: rgba(31, 41, 55, 0.6);
     font-size: 16px;
-    margin-bottom: 69px;
+    line-height: 18.75px;
     border-radius: 100px;
-    box-sizing: border-box;
     width: 224px;
     height: 40px;
-    padding: 9px 110px 12px 49px;
+    padding: 9px 112px 12px 49px;
 }
 
 header a, ul {
@@ -25,12 +34,10 @@ header a, ul {
     list-style: none;
 }
 
-.avatar {
-    margin: 0 586px 28px 640px;
-}
 
 .img-container {
-    margin: 28px 272px 69px;
+    width: 896px;
+    margin: 0 auto;
 }
 
 article {
@@ -83,4 +90,24 @@ footer > p {
 
 .title-p {
     margin-bottom: 14px;
+}
+
+.avatar-container {
+    width: 214px;
+    margin: 0 auto;
+}
+
+.avatar-text {
+    display: inline-block;
+}
+
+.avatar-title1 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.avatar-title2 {
+    width: 85px;
+    font-size: 14px;
+    line-height: 28px;
 }
