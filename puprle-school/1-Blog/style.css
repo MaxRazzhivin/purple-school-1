@@ -64,6 +64,10 @@ header a, ul {
     margin: 0 auto;
 }
 
+.ava-photo {
+    border-radius: 50%;
+}
+
 article {
     width: 708px;
     margin: 0 auto 103px;
