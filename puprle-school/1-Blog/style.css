@@ -11,20 +11,41 @@ body {
     margin: 0 auto;
 }
 
-header {
-    margin-bottom: 69px;
+header div {
+    width: 1080px;
+    margin: 72px auto 69px; 
+}
+
+header nav, li {
+    display: inline-block;
 }
 
 
-
-form > input {
-    background-color: rgba(31, 41, 55, 0.6);
+form{
+    display: inline-block;
+    background-color: rgba(31, 41, 55);
     font-size: 16px;
     line-height: 18.75px;
+    opacity: 0.6;
     border-radius: 100px;
     width: 224px;
-    height: 40px;
-    padding: 9px 112px 12px 49px;
+    padding: 9px 0 12px 18px;
+}
+
+form input {
+    background-color: rgba(31, 41, 55, 0.6);
+    padding: 0;
+    margin: 0;
+}
+
+[type="search"] {
+    border: none;
+    outline: none;
+}
+
+.search {
+    opacity: 0.9;
+    margin-right: 17px;
 }
 
 header a, ul {
@@ -32,6 +53,9 @@ header a, ul {
     text-transform: none;
     color: rgba(255, 255, 255, 1);
     list-style: none;
+    margin:0;
+    padding: 0;
+    display: inline-block;
 }
 
 
@@ -42,7 +66,6 @@ header a, ul {
 
 article {
     width: 708px;
-    height: auto;
     margin: 0 auto 103px;
 }
 
@@ -50,9 +73,33 @@ main > p, main > h1, footer {
     text-align: center;
 }
 
-a span {
+.my-blog {
 font-size: 18px;
 line-height: 21px;
+margin-right: 77px;
+}
+
+.my-blog-pic {
+    width: 35px;
+    font-size: 18px;
+    line-height: 22.63px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(75, 85, 99, 1);
+    padding: 6px 12px;
+    margin: 72px 11px 0 0;
+
+}
+
+li:nth-child(1) {
+    margin-right: 52px;
+}
+
+li:nth-child(2) {
+    margin-right: 39px;
+}
+
+li:nth-child(3) {
+    margin-right: 246px;
 }
 
 nav a {
@@ -86,11 +133,15 @@ h1 {
 footer > p {
     font-size: 16px;
     line-height: 28px;
+    opacity: 0.6;
 }
 
 .title-p {
     margin-bottom: 14px;
+    margin-top: 0;
+    opacity: 0.6;
 }
+
 
 .avatar-container {
     width: 214px;
@@ -110,4 +161,5 @@ footer > p {
     width: 85px;
     font-size: 14px;
     line-height: 28px;
+    opacity: 0.6;
 }
