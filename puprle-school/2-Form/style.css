@@ -1,55 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(243, 148, 148, 1);
+    color: rgba(51, 51, 51, 1);
+    max-width: 1440px;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 582px;
+    margin: 0 auto;
+    background-color: rgba(255, 254, 254, 1);
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 91px;
+}
+
 h1 {
     font-size: 36px;
-    font-family: "Open Sans", sans-serif;
     line-height: 49.03px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .enter {
     margin-top: 0;
-}
-
-.start-reg {
-    width: 383px;
-    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: rgba(102, 102, 102, 1);
     margin-bottom: 47px;
 }
 
-
-body {
-    width: 582px;
-    height: 573px;
+.enter a {
+    text-decoration: none;
+    color: rgba(8, 159, 224, 1);
+    font-size: 18px;
+    line-height: 24.51px;
 }
 
-table {
+.company, .name-total {
     width: 394px;
-    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 245, 245, 1);
+    padding: 9px;
+    padding-left: 11px;
+}
+
+.company [type='text'] {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+[type='text'], [type='email']{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.company input{
+    display: block;
+    border: none;
+    width: 100%;
     padding: 0;
-}
-
-th {
-    color: rgba(51, 51, 51, 1);
-    text-align: left;
-}
-
-th > input {
-    width: 100%;
-}
-
-td > input {
-    width: 100%;
+    margin: 0;
 }
 
 input {
-    background-color: rgba(245, 245, 245, 1);
-    font-style: italic;
-    padding: 0;
+    
+        border: none;
+        outline: none;
+    
 }
 
+.name-total {
+    margin-bottom: 22px;
+    background-color: rgba(245, 245, 245, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.name-total input {
+    padding: 0;
+    margin: 0;
+    width: 49.4%;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.email {
+    width: 394px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 245, 245, 1);
+    padding: 9px;
+    padding-left: 11px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.email input {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 1);
+}
 
 button {
     background-color: rgba(8, 159, 224, 1);
     width: 394px;
-    height: 44px;
     color: rgba(255, 255, 255, 1);
+    margin: 0 auto 22px;
+    font-size: 18px;
+    padding: 9px;
+    line-height: 24.51px;
+    border-radius: 5px;
+    font-weight: normal;
+}
+
+p label {
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+p label a {
+    text-decoration: none;
+    color: rgba(8, 159, 224, 1);
+}
+
+.agreement {
+    margin: 0;
 }

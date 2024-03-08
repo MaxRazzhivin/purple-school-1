@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Формы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Формы</title>
 </head>
 <body>
     <form action="/test">
@@ -12,26 +14,23 @@
         <h1>Регистрация</h1>
         <p class="enter">Уже есть аккаунт? <a href="#">Войти</a></p>
         </div>
-    <table>    
-        <tr>
-            <th colspan="2">
-                <input type="text" name="my_company" value="Моя компания">
-            </th>
+        
+        <div class="company">
+            <input type="text" name="my_company" value="Моя компания">
+        </div>
 
-        </tr>
-    
-        <tr class="tr-name">
-            <td><input type="text" placeholder="Имя" name="name"></td>
-            <td><input type="text" placeholder="Фамилия" name="surname"></td>
-        </tr>
-        <tr class="tr-email">
-            <td colspan="2"><input type="email" placeholder="E-mail" name="email"></td>
-        </tr>
-    </table>
+        <div class="name-total">
+            <input type="text" placeholder="Имя" name="name">
+            <input type="text" placeholder="Фамилия" name="surname">
+        </div>
+        
+        <div class="email">
+            <input type="email" placeholder="E-mail" name="email">
+        </div>
 
         <button>Зарегистрироваться</button>
 
-        <p>
+        <p class="agreement">
         <label>
             <input type="checkbox" name="agreement">Я прочитал и принимаю <a href="#">Условия пользования</a>
         </label>
