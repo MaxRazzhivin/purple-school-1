@@ -134,3 +134,8 @@ p label a {
 .agreement {
     margin: 0;
 }
+
+.arrow {
+    position: relative;
+    left: 56px;
+}
