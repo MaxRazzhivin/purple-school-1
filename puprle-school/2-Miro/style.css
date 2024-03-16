@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 56px;
+    color: rgba(5, 0, 56, 1);
+}
+
+h1 {
+    margin-bottom: 17px;
+}
+
+h2 {
+    margin-bottom: 19px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text {
+    color: rgba(5, 0, 56, 1);
+    margin-bottom: 55px;
+    width: 424px;
+}
+
+.p-section-text {
+    color:rgba(5, 0, 56, 0.6);
+    margin-bottom: 40px;
+}
+
+header a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgba(5, 0, 56, 1);
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    margin-bottom:60px;
+    padding: 0;
+    margin: 0;
+    padding 33px 50px;
+}
+
+nav {
+    border-bottom: solid 1px #F0F0F0;
+    padding: 33px 50px;
+}
+
+.heroForm + p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(5, 0, 56, 1);
+    margin: 8px 0 52px;
+}
+
+.heroForm .email {
+    border-radius: 32px;
+    border: 1px solid rgba(155, 153, 175, 1);
+    height: 38px;
+    padding: 5px 10px;
+}
+
+.button {
+    background-color: rgba(66, 98, 255, 1);
+    border-radius: 32px;
+    height: 48px;
+    border: 1px solid rgba(66, 98, 255, 1);
+    padding: 10px 20px;
+
+}
+
+.section-list {
+    list-style: none;
+}
+
+.section-list li::before {
+    content: url(check.svg)
+}
+
+.promo > a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(5, 0, 56, 1);
+    padding: 47px 40px;
+}
+
+footer a, footer li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding 33px 50px;
+}

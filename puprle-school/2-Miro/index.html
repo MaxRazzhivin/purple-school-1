@@ -2,35 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header> 
         <nav>
             <ul>
-                <li>Продукт</li>
-                <li>Решения</li>
-                <li>Ресурсы</li>
-                <li>Предприятия</li>
-                <li>Тарифы</li>
+                <li><a href="#">Продукт</a></li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">Ресурсы</a></li>
+                <li><a href="#">Предприятия</a></li>
+                <li><a href="#">Тарифы</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
-        <h1 class="visually-hidden">Доска Миро</h1>
-        <h2>Место для командной работы</h2>
+        
+        <h1>Место для командной работы</h1>
 
-        <p>Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
+        <p class="hero-text">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
 
         <div>
-            <form action="/test" method="get">
-            <input type="email" name="email">
-            <input type="submit" value="Начать бесплатно">
+            <form action="/test" method="get" class="heroForm">
+            <input type="email" name="email" class="email">
+            <input type="submit" value="Начать бесплатно" class="button">
             </form>
 
-            <p><a href="#">Всегда бесплатно — кредитная карта не нужна</a></p>
+            <p class="promo"><a href="#">Всегда бесплатно — кредитная карта не нужна</a></p>
 
             <p><a href="#">45M+ пользователей</a></p>
             <img src="/puprle-school/2-Miro/IMAGE-3.png" alt="Walmart" width="60" height="33">
@@ -44,7 +44,7 @@
     <section>
         <h2>Работайте вместе, где бы вы ни находились</h2>
 
-        <p>Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
+        <p class="p-section-text">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
 
         <p><a href="#">Узнать больше</a></p>
 
@@ -53,21 +53,32 @@
 
     <section>
         <h2>Закройте лишние вкладки — всё уже здесь</h2>
-        <p>Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
+        <p class="p-section-text">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
         <p><a href="#">Узнать больше</a></p>
 
         <img src="/puprle-school/2-Miro/IMAGE-2.png" alt="Сервисы внутри Миро" width="550" height="498">
     </section>
 
+    <section>
+        <h2>Создан для всех типов команд</h2>
+        <ul class="section-list">
+            <li>Создавайте вайрфреймы</li>
+            <li>Подключайте заказчиков к процессу дизайна</li>
+            <li>Проводите вовлекающие дизайн-воркшопы</li>
+        </ul>
+        
+
+    </section>
+
     <footer>
-        <nav>
-            <ul>
-                <li>@copy2023 Miro</li>
+        
+            <ul class="footer-list">
+                <li>&copy;2023 Miro</li>
                 <li><a href="#">Условия пользования</a></li>
                 <li><a href="#">Политика конфиденциальности</a></li>
                 <li><a href="#">Управление файлами cookies</a></li>
             </ul>
-        </nav>
+        
     </footer>
 </body>
 </html>
