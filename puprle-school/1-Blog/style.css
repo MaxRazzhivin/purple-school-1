@@ -3,26 +3,24 @@
 }
 
 body {
-    background-color: rgba(55, 65, 81, 1);
+    background: linear-gradient(#374151, #111827);
     color: rgba(255, 255, 255, 1);
     max-width: 1440px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    margin: 0 auto;
+    margin: 80px auto 77px;
 }
 
-header div {
-    width: 1080px;
-    margin: 72px auto 69px; 
+.header-block{
+    max-width: 1080px;
+    margin: 0 auto 80px;
+    display: flex;
+    align-items: center;
+    gap: 77px;
 }
 
-header nav, li {
-    display: inline-block;
-}
 
-
-form{
-    display: inline-block;
+.form-header{
     background-color: rgba(31, 41, 55);
     font-size: 16px;
     line-height: 18.75px;
@@ -30,12 +28,15 @@ form{
     border-radius: 100px;
     width: 224px;
     padding: 9px 0 12px 18px;
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
 }
 
 form input {
     background-color: rgba(31, 41, 55, 0.6);
-    padding: 0;
-    margin: 0;
 }
 
 [type="search"] {
@@ -55,22 +56,24 @@ header a, ul {
     list-style: none;
     margin:0;
     padding: 0;
-    display: inline-block;
 }
 
 
 .img-container {
-    width: 896px;
-    margin: 0 auto;
+    max-width: 896px;
+    max-height: 594px;
+    margin: 0 auto 69px;
 }
 
+
 .ava-photo {
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 article {
     width: 708px;
-    margin: 0 auto 103px;
+    margin: 0 auto 95px;
 }
 
 main > p, main > h1, footer {
@@ -80,7 +83,6 @@ main > p, main > h1, footer {
 .my-blog {
 font-size: 18px;
 line-height: 21px;
-margin-right: 77px;
 }
 
 .my-blog-pic {
@@ -117,27 +119,33 @@ main > p {
 }
 
 h1 {
+    max-width: 525px;
     font-weight: normal;
     font-size: 24px;
     line-height: 38px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
 .text-1 {
     font-size: 20px;
     line-height: 32px;
+    margin-bottom: 45px;
 }
 
 .text-2 {
     font-size: 16px;
     line-height: 30px;
+    margin: 0;
+    margin-bottom: 45px;
 }
 
 footer > p {
     font-size: 16px;
     line-height: 28px;
     opacity: 0.6;
+    padding: 0;
+    margin: 0;
 }
 
 .title-p {
@@ -148,22 +156,28 @@ footer > p {
 
 
 .avatar-container {
-    width: 214px;
+    max-width: 214px;
     margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
 }
 
 .avatar-text {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .avatar-title1 {
     font-size: 16px;
     line-height: 28px;
+    margin: 0;
 }
 
 .avatar-title2 {
-    width: 85px;
     font-size: 14px;
     line-height: 28px;
     opacity: 0.6;
+    margin: 0;
 }

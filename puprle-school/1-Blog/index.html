@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title><Блог-1></title>
 </head>
 <body>
     <header>
-        <div>
-        <a href="#">
-            <span class="my-blog-pic">B</span>
-            <span class="my-blog">Мой блог</span>
-        </a>
+        <div class="header-block">
+            <a href="#">
+                <span class="my-blog-pic">B</span>
+                <span class="my-blog">Мой блог</span>
+            </a>
         
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">HTML и CSS</a>
-                </li>
-                <li>
-                    <a href="#">Frontend</a>
-                </li>
-                <li>
-                    <a href="#">Backend</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="header-list">
+                    <li>
+                        <a href="#">HTML и CSS</a>
+                    </li>
+                    <li>
+                        <a href="#">Frontend</a>
+                    </li>
+                    <li>
+                        <a href="#">Backend</a>
+                    </li>
+                </ul>
+            
+            </nav>
 
-            <form>
+            <form class="form-header">
                 <label><img src="search.png" alt="иконка поиска" width="14px" height="14px" class="search">
                     <input type="search" placeholder="Поиск">
                 </label>
             </form>
-        </nav>
+        
 
         </div>
     </header>
@@ -41,15 +46,15 @@
 
         
         <p class="title-p">FRONTEND <img src="Rectangle 5.png" width="4px" height="4px" alt="иконка точки"> 12 мая 2024</p>
-        <h1>Теория цвета - Как цвет влияет на поведение <br> потребителей</h1>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
 
         <div class="avatar-container">
-            
-            <img src="author-photo.png" width="50" height="50" alt="Аватарка автора" class="ava-photo">
-            
+            <div class="avatar-con">
+                <img src="Ellipse 1.png" alt="Аватарка автора" class="ava-photo">
+            </div>
             <div class="avatar-text">
-            <p class="avatar-title1">Наталья Васильева</p>
-            <p class="avatar-title2">Разработчик</p>
+                <p class="avatar-title1">Наталья Васильева</p>
+                <p class="avatar-title2">Разработчик</p>
             </div>
 
         </div>
@@ -58,20 +63,20 @@
 
 
         <div class="img-container">
-            <img src="./4f3f91ff718dae25d01f84692996a2cd.png" width="896" height="594" alt="Imac - теория цвета">
+            <img src="./4f3f91ff718dae25d01f84692996a2cd.png" width="896" alt="Imac - теория цвета">
         </div>
         
         <article>
             <p class="text-1">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</p>
         
             <p class="text-2">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей.</p>
-
-                <p class="text-2">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
+        
+            <p class="text-2">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
         </article>
     </main>
 
     <footer>
         <p>Все права защищены (c) 2024</p>
     </footer>
-</body>
+        
 </html>
