@@ -3,28 +3,27 @@
 }
 
 body {
-    background-color: rgba(243, 148, 148, 1);
+    background: linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+    linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), #f39494;
     color: rgba(51, 51, 51, 1);
     max-width: 1440px;
-    font-family: "Open Sans", sans-serif;  
+    font-family: "Open Sans", sans-serif; 
 }
 
 .form {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     max-width: 582px;
-    margin: 225px auto;
     background-color: rgba(255, 254, 254, 1);
-    padding: 72px 0 91px;
+    padding: 72px 93px 91px 95px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-}
-
-.start-reg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -95,18 +94,25 @@ input {
     max-width: 100%;
 }
 
-.name-total input {
-    padding: 9px 0;
-    padding-left: 11px;
-    margin: 0;
+input:not(input[type="checkbox"]) {
+    padding: 9px 11px;
     background-color: rgba(245, 245, 245, 1);
     width: 100%;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+input:not[type="checkbox"]:focus{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
 }
 
-.forms-name1, .forms-name2 {
-    width: 50%;
-    border: 1px rgba(245, 245, 245, 1) solid;
-    border-radius: 5px;
+.name-total input:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.name-total input:last-child {
+    border-radius: 0 5px 5px 0;
 }
 
 .email {

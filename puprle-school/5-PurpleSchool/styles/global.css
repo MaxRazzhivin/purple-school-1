@@ -1,12 +1,10 @@
 :root {
     --color-primary: #6c38cc;
-    --space-10: 10px;
+    --color-bg:#16171D;
 }
 
-html {
-    /*  */
-}
+
 
 body {
-    background: #16171D;
+    background: var(--color-bg);
 }

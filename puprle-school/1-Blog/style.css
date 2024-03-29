@@ -12,25 +12,23 @@ body {
 }
 
 header {
-    padding-top: 80px;
+    max-width: 1080px;
+    margin: 77px auto 69px;
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    justify-content: space-between;
 }
 
 footer {
     padding-bottom: 77px;
 }
 
-.header-block{
-    max-width: 1080px;
-    margin: 0 auto 80px;
-    display: flex;
-    align-items: center;
-    gap: 77px;
-}
-
 .header-list {
     display: flex;
     align-items: center;
     gap: 39px;
+    flex: 1;
 }
 
 li:nth-child(1){
