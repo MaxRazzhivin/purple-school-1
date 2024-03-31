@@ -1,10 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    max-width: 1200px;
 }
 
 ul{
     margin: 0;
     padding: 0;
+}
+
+main {
+    margin: 60px 40px 43px;
 }
 
 
@@ -14,15 +23,24 @@ h1, h2 {
     font-weight: normal;
     line-height: 56px;
     color: rgba(5, 0, 56, 1);
+    margin-top: 0;
+    letter-spacing: 1px;
 }
 
 h1 {
     margin-bottom: 17px;
+    max-width: 285px;
+    margin-top: 0;
 }
 
 h2 {
     margin-bottom: 19px;
+    max-width: 454px;
+    margin-top: 70px;
 }
+
+
+
 
 p {
     font-size: 18px;
@@ -32,14 +50,18 @@ p {
 }
 
 .hero-text {
+    max-width: 440px;
     color: rgba(5, 0, 56, 1);
     margin-bottom: 55px;
-    width: 424px;
+    padding-right: 14px;
+    font-weight: 400;
 }
 
 .p-section-text {
     color:rgba(5, 0, 56, 0.6);
     margin-bottom: 40px;
+    max-width: 436px;
+    line-height: 24px;
 }
 
 header a {
@@ -52,16 +74,25 @@ header a {
 }
 
 header ul {
+    display: flex;
+    justify-content: flex-start;
     list-style: none;
-    margin-bottom:60px;
     padding: 0;
     margin: 0;
-    padding 33px 50px;
+}
+
+header li {
+    margin-right: 34px;
+}
+
+header ul li:nth-child(4) {
+    margin-right: 16px;
 }
 
 nav {
     border-bottom: solid 1px #F0F0F0;
     padding: 33px 50px;
+    margin-bottom: 60px;
 }
 
 .heroForm + p {
@@ -71,6 +102,53 @@ nav {
     line-height: 20px;
     color: rgba(5, 0, 56, 1);
     margin: 8px 0 52px;
+}
+
+
+
+
+section {
+    margin-bottom: 130px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column-1 {
+    max-width: 440px;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 a, .section-3 a  {
+    color: rgba(66, 98, 255, 1);
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.section4-title {
+    max-width: 754px;
+    margin-top: 0;
+}
+
+.form-inputs form, .form-inputs input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .heroForm .email {
@@ -86,28 +164,75 @@ nav {
     height: 48px;
     border: 1px solid rgba(66, 98, 255, 1);
     padding: 10px 20px;
-
+    color: white;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
 }
 
 .section-list {
     list-style: none;
+    max-width: 280px;
 }
 
 .section-list li::before {
-    content: url(check.svg)
+    content: url(check.svg);
+    margin-right: 14px;
+}
+
+.section-list li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(5, 0, 56, 0.6);
+}
+
+.promo {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 47px;
+
 }
 
 .promo > a {
     text-decoration: none;
+    color: rgba(5, 0, 56, 1);
+}
+
+.promo-form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-form a{
+    text-decoration: none;
+    color: rgba(5, 0, 56, 1);
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.promo-form2 {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
     background-color: rgba(5, 0, 56, 1);
-    padding: 47px 40px;
+    max-width: 1200px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 20px;
 }
 
 footer a, footer li {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -117,5 +242,5 @@ footer a, footer li {
 
 footer ul {
     list-style: none;
-    padding 33px 50px;
+    padding: 46px 40px;
 }

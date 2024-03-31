@@ -1,0 +1,10 @@
+:root {
+    --color-primary: #6c38cc;
+    --color-bg:#16171D;
+}
+
+
+
+body {
+    background: var(--color-bg);
+}

@@ -3,32 +3,38 @@
 }
 
 body {
-    background-color: rgba(243, 148, 148, 1);
+    background: linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+    linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), #f39494;
     color: rgba(51, 51, 51, 1);
     max-width: 1440px;
-    font-family: "Open Sans", sans-serif;
-    border: none;
-    margin: 0;
-    padding: 0;
+    font-family: "Open Sans", sans-serif; 
 }
 
-form {
-    width: 582px;
-    margin: 0 auto;
-    background-color: rgba(255, 254, 254, 1);
+.form {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 72px;
-    padding-bottom: 91px;
+    align-items: center;
+    max-width: 582px;
+    background-color: rgba(255, 254, 254, 1);
+    padding: 72px 93px 91px 95px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
     font-size: 36px;
     line-height: 49.03px;
     margin: 0;
+    height: 54px;
 }
 
 .enter {
-    margin-top: 0;
+    margin:0;
     font-size: 18px;
     line-height: 24.51px;
     color: rgba(102, 102, 102, 1);
@@ -40,23 +46,29 @@ h1 {
     color: rgba(8, 159, 224, 1);
     font-size: 18px;
     line-height: 24.51px;
+    margin-left: 6px;
 }
 
-.company, .name-total {
-    width: 394px;
-    margin: 0 auto;
-    margin-bottom: 21px;
-    border-radius: 5px;
-    border: 1px solid rgba(245, 245, 245, 1);
-    padding: 9px;
-    padding-left: 11px;
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }
+
+.company {
+    border: 1px solid rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
 
 .company [type='text'] {
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
+    padding: 9px 11px;
 }
 
 [type='text'], [type='email']{
@@ -66,59 +78,87 @@ h1 {
 }
 
 .company input{
-    display: block;
-    border: none;
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 input {
-    
-        border: none;
-        outline: none;
-    
+    border: none;
 }
 
 .name-total {
-    margin-bottom: 22px;
-    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
     border: 1px solid rgba(255, 255, 255, 1);
+    max-width: 100%;
 }
 
-.name-total input {
-    padding: 0;
-    margin: 0;
-    width: 49.4%;
+input:not(input[type="checkbox"]) {
+    padding: 9px 11px;
     background-color: rgba(245, 245, 245, 1);
+    width: 100%;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+input:not[type="checkbox"]:focus{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.name-total input:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.name-total input:last-child {
+    border-radius: 0 5px 5px 0;
 }
 
 .email {
     width: 394px;
-    margin: 0 auto;
-    margin-bottom: 22px;
     border-radius: 5px;
     border: 1px solid rgba(245, 245, 245, 1);
-    padding: 9px;
-    padding-left: 11px;
-    background-color: rgba(245, 245, 245, 1);
 }
 
 .email input {
     width: 100%;
     background-color: rgba(245, 245, 245, 1);
+    padding: 9px;
+    padding-left: 11px;
+}
+
+input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: rgba(153, 153, 153, 1);
 }
 
 button {
     background-color: rgba(8, 159, 224, 1);
-    width: 394px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    margin: 0 auto 22px;
     font-size: 18px;
+    font-family: "Open Sans", sans-serif;
     padding: 9px;
     line-height: 24.51px;
     border-radius: 5px;
-    font-weight: normal;
+    border: none;
+}
+
+.button-div {
+    position: relative;
+}
+
+
+.arrow{
+    position: absolute;
+    right: 24px;
+    top: 9px;
+    
 }
 
 p label {
@@ -126,16 +166,15 @@ p label {
     line-height: 19.07px;
 }
 
-p label a {
+.agreement a {
     text-decoration: none;
     color: rgba(8, 159, 224, 1);
 }
 
 .agreement {
+    display: flex;
+    gap: 16px;
     margin: 0;
 }
 
-.arrow {
-    position: relative;
-    left: 56px;
-}
+

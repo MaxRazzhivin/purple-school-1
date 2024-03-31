@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header> 
@@ -18,49 +21,69 @@
         </nav>
     </header>
 
-    <section>
+<main>
+    <section class="section-1">
         
-        <h1>Место для командной работы</h1>
+        <div class="column-1">
+            <h1>Место для командной работы</h1>
 
-        <p class="hero-text">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
+            <p class="hero-text">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
 
         <div>
+            <div class="form-inputs">
             <form action="/test" method="get" class="heroForm">
             <input type="email" name="email" class="email">
             <input type="submit" value="Начать бесплатно" class="button">
             </form>
+            </div>
 
             <p class="promo"><a href="#">Всегда бесплатно — кредитная карта не нужна</a></p>
 
-            <p><a href="#">45M+ пользователей</a></p>
-            <img src="/puprle-school/2-Miro/IMAGE-3.png" alt="Walmart" width="60" height="33">
-            <img src="/puprle-school/2-Miro/IMAGE-4.png" alt="CISCO" width="39" height="33">
-            <img src="/puprle-school/2-Miro/IMAGE-5.png" alt="Deloitte" width="45" height="33">
-            <img src="/puprle-school/2-Miro/IMAGE-6.png" alt="Volvo" width="27" height="33">
+
+            <div class="promo-form">
+            <a href="#">45M+ пользователей</a>
+                <div class="promo-form2">
+                <img src="IMAGE-3.png" alt="Walmart">
+                <img src="IMAGE-4.png" alt="CISCO">
+                <img src="IMAGE-5.png" alt="Deloitte">
+                <img src="IMAGE-6.png" alt="Volvo">
+                </div>
+            </div>
         </div>
-        <img src="/puprle-school/2-Miro/headerimage-without-text 1.png" alt="Доска Миро" width="604" height="461">
+        </div>
+
+        <div>
+            <img src="headerimage-without-text 1.png" alt="Доска Миро">
+        </div>
     </section>
         
-    <section>
-        <h2>Работайте вместе, где бы вы ни находились</h2>
+    <section class="section-2">
+        <div class="section2-flex">
+            <h2>Работайте вместе, где бы вы ни находились</h2>
 
-        <p class="p-section-text">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
+            <p class="p-section-text">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
 
-        <p><a href="#">Узнать больше</a></p>
+            <p><a href="#">Узнать больше</a></p>
+        </div>
 
-        <img src="/puprle-school/2-Miro/IMAGE.png" alt="Совместная работа" width="550" height="535">
+        <div>
+            <img src="IMAGE.png" alt="Совместная работа">
+        </div>
     </section>
 
-    <section>
-        <h2>Закройте лишние вкладки — всё уже здесь</h2>
-        <p class="p-section-text">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
-        <p><a href="#">Узнать больше</a></p>
-
-        <img src="/puprle-school/2-Miro/IMAGE-2.png" alt="Сервисы внутри Миро" width="550" height="498">
+    <section class="section-3">
+        <div class="section3-flex">
+            <h2>Закройте лишние вкладки — всё уже здесь</h2>
+            <p class="p-section-text">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
+            <p><a href="#">Узнать больше</a></p>
+        </div>
+        <div>
+            <img src="IMAGE-2.png" alt="Сервисы внутри Миро" width="550" height="498">
+        </div>
     </section>
 
-    <section>
-        <h2>Создан для всех типов команд</h2>
+    <section class="section-4">
+        <h2 class="section4-title">Создан для всех типов команд</h2>
         <ul class="section-list">
             <li>Создавайте вайрфреймы</li>
             <li>Подключайте заказчиков к процессу дизайна</li>
@@ -69,11 +92,13 @@
         
 
     </section>
+</main>
+
 
     <footer>
         
             <ul class="footer-list">
-                <li>&copy;2023 Miro</li>
+                <li>&copy; 2023 Miro</li>
                 <li><a href="#">Условия пользования</a></li>
                 <li><a href="#">Политика конфиденциальности</a></li>
                 <li><a href="#">Управление файлами cookies</a></li>

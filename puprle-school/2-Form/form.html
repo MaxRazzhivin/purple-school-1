@@ -9,35 +9,45 @@
     <title>Формы</title>
 </head>
 <body>
-    <form action="/test">
-        <div class="start-reg">
-        <h1>Регистрация</h1>
-        <p class="enter">Уже есть аккаунт? <a href="#">Войти</a></p>
-        </div>
+    <section class="form">
+        <form action="/test">
+            <div class="start-reg">
+                <h1>Регистрация</h1>
+                <p class="enter">Уже есть аккаунт? <a href="#">Войти</a></p>
+            </div>
+
+            <div class="flex-form">
+                <div class="company">
+                    <input type="text" name="my_company" value="Моя компания">
+                </div>
+
+                <div class="name-total">
+                    <input type="text" placeholder="Имя" name="name">
+                    <input type="text" placeholder="Фамилия" name="surname">
+                </div>
         
-        <div class="company">
-            <input type="text" name="my_company" value="Моя компания">
+            <div class="email">
+                <input type="email" placeholder="E-mail" name="email">
+            </div>
+
+            <div class="button-div">
+                <button>
+                    Зарегистрироваться <img src="Arrow 1.svg" alt="изображение стрелки" class="arrow">
+                </button>
+
+                
+            </div>
+
+            
+
+            <p class="agreement">
+                <label>
+                    <input type="checkbox" name="agreement">Я прочитал и принимаю 
+                </label>
+                <a href="#">Условия пользования</a>
+            </p>
         </div>
-
-        <div class="name-total">
-            <input type="text" placeholder="Имя" name="name">
-            <input type="text" placeholder="Фамилия" name="surname">
-        </div>
-        
-        <div class="email">
-            <input type="email" placeholder="E-mail" name="email">
-        </div>
-
-        <button>Зарегистрироваться 
-            <img src="Arrow 1.svg" alt="изображение стрелки" width="22px" class="arrow">
-        </button>
-
-        <p class="agreement">
-        <label>
-            <input type="checkbox" name="agreement">Я прочитал и принимаю <a href="#">Условия пользования</a>
-        </label>
-        </p>
-
-    </form>
+        </form>
+    </section>
 </body>
 </html>
